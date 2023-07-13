@@ -1,0 +1,44 @@
+body {
+  margin: auto;
+  padding: auto;
+  max-width: 600px;
+  min-width: 300px;
+  font-family: helvetica;
+  background-color: #545454;
+}
+h1,
+p,
+h3 {
+  text-align: center;
+  color: white;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 3rem auto 0.5rem auto;
+  padding: auto;
+  border-radius: 6px;
+}
+h1 {
+  color: white;
+  margin-top: 2rem;
+}
+h3 {
+  margin-top: 4rem;
+}
+#list-item {
+  color: rgb(187, 184, 184);
+}
+a {
+  color: rgb(187, 184, 184);
+}
+a:hover {
+  color: rgb(220, 233, 74);
+}
+p {
+  color: rgb(187, 184, 184);
+}
+#description {
+  color: white;
+}
