@@ -1,7 +1,7 @@
 body {
   margin: auto;
   padding: auto;
-  max-width: 600px;
+  max-width: 1200px;
   min-width: 300px;
   font-family: helvetica;
   background-color: #545454;
@@ -12,7 +12,7 @@ h3 {
   text-align: center;
   color: white;
   }
-img {
+#image {
   display: block;
   max-width: 85%;
   height: auto;
@@ -38,13 +38,11 @@ h4 {
   list-style: none;
   text-align: left;
 }
-a {
-  color: rgb(187, 184, 184);
-}
+
 a:hover {
   color: rgb(220, 233, 74);
 }
-p {
+p, a {
   color: rgb(187, 184, 184);
 }
 #description {
@@ -63,23 +61,17 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 25px;
   justify-content: space-evenly;
 }
 .gallery-img {
   width: 45%;
   height: auto;
   object-fit: contain;
-    }
+}
 .hide {
   display: none!important;
 }
 #footer {
   margin-bottom: 5rem;
 }
-@media screen and (min-width: 600px) {
-  body {
-    min-width: 600px;
-    max-width: 1200px
-  }
- }
