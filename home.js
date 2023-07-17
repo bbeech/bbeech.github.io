@@ -57,3 +57,30 @@ button4.addEventListener('click', function() {
     }
 
 });
+
+const start = new Date("November 23, 1972").getTime();
+
+let currentDate = new Date().getTime();
+
+
+let elapsed = currentDate - start;
+elapsed = elapsed / (1000 * 3600 * 24);
+
+let elapsedYearsFull = elapsed / 365;
+
+
+let elapsedDays = Math.trunc(.356 * elapsedYearsFull.toString().slice(3, 6));
+
+let elapsedYears = elapsedYearsFull.toString().slice(0, 2);
+
+function showYears(years) {
+    document.getElementById("years").textContent = years;
+}
+
+function showDays(days) {
+    document.getElementById("days").textContent = days;
+}
+
+showYears (elapsedYears);
+
+showDays (elapsedDays);
