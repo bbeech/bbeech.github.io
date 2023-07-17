@@ -1,11 +1,11 @@
 body {
-  margin: 1.5rem;
+  margin: auto;
   padding: auto;
   max-width: 1200px;
   min-width: 300px;
   font-family: helvetica;
   background-color: #545454;
-}
+  }
 h1,
 p,
 h3 {
